@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prototype", "prototype\prototype.csproj", "{14E2AACE-6B72-4A9A-8A2B-087D0F8CC96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proxy", "proxy\proxy.csproj", "{2B812845-BD12-47B6-B071-164014BEB89D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{14E2AACE-6B72-4A9A-8A2B-087D0F8CC96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E2AACE-6B72-4A9A-8A2B-087D0F8CC96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E2AACE-6B72-4A9A-8A2B-087D0F8CC96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B812845-BD12-47B6-B071-164014BEB89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B812845-BD12-47B6-B071-164014BEB89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B812845-BD12-47B6-B071-164014BEB89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B812845-BD12-47B6-B071-164014BEB89D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
