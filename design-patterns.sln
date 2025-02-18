@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prototype", "prototype\prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proxy", "proxy\proxy.csproj", "{2B812845-BD12-47B6-B071-164014BEB89D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{BAA69289-D450-44F9-82DE-CBCC35EBDE2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2B812845-BD12-47B6-B071-164014BEB89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B812845-BD12-47B6-B071-164014BEB89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B812845-BD12-47B6-B071-164014BEB89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA69289-D450-44F9-82DE-CBCC35EBDE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA69289-D450-44F9-82DE-CBCC35EBDE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA69289-D450-44F9-82DE-CBCC35EBDE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA69289-D450-44F9-82DE-CBCC35EBDE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
