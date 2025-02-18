@@ -1,12 +1,12 @@
 ﻿namespace Mediator
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {
-            IApp app = new App();
-            Usuario parceiro = new Parceiro(app);
-            Usuario cliente = new Cliente(app);
+            var app = new App();
+            var parceiro = new Parceiro(app);
+            var cliente = new Cliente(app);
 
             app.IncluirUsuario(parceiro);
             app.IncluirUsuario(cliente);

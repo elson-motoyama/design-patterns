@@ -2,8 +2,8 @@
 {
     public interface IApp
     {
-        void EnviarMensagem(Mensagem mensagem, Usuario usuario);
+        void EnviarMensagem(Mensagem mensagem, IUsuario usuario);
 
-        void IncluirUsuario(Usuario usuario);
+        void IncluirUsuario(IUsuario usuario);
     }
 }

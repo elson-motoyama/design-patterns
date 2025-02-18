@@ -2,17 +2,16 @@
 {
     public class App : IApp
     {
-        private List<Usuario> usuarios = new();
+        private readonly List<IUsuario> usuarios = [];
 
-        public void EnviarMensagem(Mensagem mensagem, Usuario usuario)
+        public void EnviarMensagem(Mensagem mensagem, IUsuario usuario)
         {
             var destinatario = usuarios.Find(x => x.GetType() != usuario.GetType());
 
-            if(destinatario != null)
-                destinatario.ReceberMensagem(mensagem);
+            destinatario?.ReceberMensagem(mensagem);
         }
 
-        public void IncluirUsuario(Usuario usuario)
+        public void IncluirUsuario(IUsuario usuario)
         {
             usuarios.Add(usuario);
         }
