@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ITarget funcionalidade = new Adapter();
+
+            funcionalidade.Rotina();
+
+            Console.Read();
         }
     }
 }
