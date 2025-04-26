@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapter", "adapter\adapter.csproj", "{3CFA5AAB-4B3B-44B1-AE85-60137728AE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bridge", "bridge\bridge.csproj", "{37ADE541-FAB2-4913-AF40-95BC8EA1E165}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3CFA5AAB-4B3B-44B1-AE85-60137728AE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFA5AAB-4B3B-44B1-AE85-60137728AE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFA5AAB-4B3B-44B1-AE85-60137728AE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37ADE541-FAB2-4913-AF40-95BC8EA1E165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37ADE541-FAB2-4913-AF40-95BC8EA1E165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37ADE541-FAB2-4913-AF40-95BC8EA1E165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37ADE541-FAB2-4913-AF40-95BC8EA1E165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
